@@ -1,7 +1,7 @@
  $("#main").append("Ritu");
 var awesomeThoughts = "I am Ritu and I am awesome!";
 console.log(awesomeThoughts);
-var newAwesomeThoughts = awesomeThoughts.replace(awesome, Fun);
+var newAwesomeThoughts = awesomeThoughts.replace("awesome", "Fun");
 console.log(newAwesomeThoughts);
 $("#main").append(newAwesomeThoughts);
                    /*
