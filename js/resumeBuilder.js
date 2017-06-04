@@ -1,12 +1,11 @@
 
-var skills = ("Financial Reporting", "Finance", "System Implementation", "Auditing");
 var bio = {
   "name" : "Ritu",
   "role" : "Agent",
   "contact" : "email",
   "Picture" : "images/fry.jpg",
   "Message" : "Welcome to my page!",
-  "Skills" : skills
+  "Skills" : ["Financial Reporting", "Finance", "System Implementation", "Auditing"]
 };
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
 var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
