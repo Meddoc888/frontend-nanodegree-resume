@@ -9,7 +9,7 @@ var bio = {
 };
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
 var formattedRole = HTMLheaderRole.replace("%data%", bio.role); 
-var formattedPic = HTMLbioPic.replace("%data%", bio.picture);
+var formattedPic = HTMLbioPic.replace(img src="%data%", img src=bio.picture);
 $("#main").append(formattedName, formattedRole);
                    /*
 This is empty on purpose! Your code to build the resume will go here.
