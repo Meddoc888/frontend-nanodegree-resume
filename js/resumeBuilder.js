@@ -1,6 +1,6 @@
 
 var skills = ("Financial Reporting", "Finance", "System Implementation", "Auditing");
-var bio {
+var bio = {
   "name" : "Ritu",
   "role" : "Agent",
   "contact" : "email",
