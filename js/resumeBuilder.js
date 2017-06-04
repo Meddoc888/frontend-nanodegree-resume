@@ -1,5 +1,5 @@
 
-var skills = ("Financial Reporting", "Finance", "System Implementation", "Auditing")
+var skills = ("Financial Reporting", "Finance", "System Implementation", "Auditing");
 var bio {
   "name" : "Ritu",
   "role" : "Agent",
@@ -7,7 +7,7 @@ var bio {
   "Picture" : "images/fry.jpg",
   "Message" : "Welcome to my page!",
   "Skills" : skills
-}
+};
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
 var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
 $("#main").append(formattedName, formattedRole);
