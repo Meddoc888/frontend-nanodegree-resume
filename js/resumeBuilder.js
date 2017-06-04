@@ -6,7 +6,7 @@ var bio {
   "name" : "Ritu",
   "role" : "Agent",
   "contact" : "email",
-  "Picture" : images/fry.jpg,
+  "Picture" : "images/fry.jpg",
   "Message" : "Welcome to my page!",
   "Skills" : skills
 }
