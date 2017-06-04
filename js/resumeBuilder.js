@@ -5,7 +5,7 @@ var bio {
   name = "Ritu",
   role = "Agent",
   contact = "email",
-  Picture = images/me.jpg,
+  Picture = images/fry.jpg,
   Message = "Welcome to my page!"
   Skills = [Financial Reporting, Finance, System Implementation, Auditing]
 }
